@@ -15,5 +15,3 @@
 `var strToSign = string.toLower(request + id + timestamp)`<br/>
 `var hash = Sha512.Hash(strToSign представленная как массив байтов)`<br/>
 `signature = ECDSA.SignHash(приватный_ключ, hash)`
-
-[Примеры создания подписи](https://github.com/netex24-net/MerchantSignature)
